@@ -34,7 +34,7 @@ export const Main = () => {
             </a>
           </div>
           <div className='col-1-of-2'>
-            {/* <div className='composition'>
+            <div className='composition'>
               <img
                 src='img/nat-1-large.jpg'
                 alt='Photo 1'
@@ -50,8 +50,7 @@ export const Main = () => {
                 alt='Photo 3'
                 className='composition__photo composition__photo--p3'
               />
-            </div> */}
-            ooooo
+            </div>
           </div>
         </div>
       </section>
