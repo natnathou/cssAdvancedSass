@@ -109,6 +109,21 @@ export const Main = () => {
             </div>
           </div>
         </div>
+        <div className='section-tours'>
+          <div className='u-center-text u-margin-bottom-big'>
+            <h2 className='header-secondary'>Most Popular Tours</h2>
+            <div className='row'>
+              <div className='col-1-of-3'>
+                <div className='card'>
+                  <div className='card__side card__side--front'>FRONT</div>
+                  <div className='card__side card__side--back'>BACK</div>
+                </div>
+              </div>
+              <div className='col-1-of-3 card'>333</div>
+              <div className='col-1-of-3 card'>ererer</div>
+            </div>
+          </div>
+        </div>
       </section>
     </main>
   );
