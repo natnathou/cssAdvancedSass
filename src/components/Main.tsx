@@ -5,9 +5,7 @@ export const Main = () => {
     <main>
       <section className='section-about'>
         <div className='u-center-text u-margin-bottom-big'>
-          <h2 className='heading-secondary'>
-            Exciting tours for adventurous people
-          </h2>
+          <h2 className='heading-secondary'>Exciting tours for adventurous people</h2>
         </div>
 
         <div className='row'>
@@ -16,17 +14,17 @@ export const Main = () => {
               You're going to fall in love with nature
             </h3>
             <p className='paragraph'>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam,
-              ipsum sapiente aspernatur libero repellat quis consequatur ducimus
-              quam nisi exercitationem omnis earum qui.
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, ipsum
+              sapiente aspernatur libero repellat quis consequatur ducimus quam nisi
+              exercitationem omnis earum qui.
             </p>
 
             <h3 className='heading-tertiary u-margin-bottom-small'>
               Live adventures like you never have before
             </h3>
             <p className='paragraph'>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Asperiores nulla deserunt voluptatum nam.
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores nulla
+              deserunt voluptatum nam.
             </p>
 
             <a href='#' className='btn-text'>
@@ -63,8 +61,8 @@ export const Main = () => {
                   Explore the world
                 </h3>
                 <p className='feature-box__text'>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Aperiam, ipsum sapiente aspernatur.
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, ipsum
+                  sapiente aspernatur.
                 </p>
               </div>
             </div>
@@ -72,12 +70,10 @@ export const Main = () => {
             <div className='col-1-of-4'>
               <div className='feature-box'>
                 <i className='feature-box__icon icon-basic-compass'></i>
-                <h3 className='heading-tertiary u-margin-bottom-small'>
-                  Meet nature
-                </h3>
+                <h3 className='heading-tertiary u-margin-bottom-small'>Meet nature</h3>
                 <p className='feature-box__text'>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Aperiam, ipsum sapiente aspernatur.
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, ipsum
+                  sapiente aspernatur.
                 </p>
               </div>
             </div>
@@ -85,12 +81,10 @@ export const Main = () => {
             <div className='col-1-of-4'>
               <div className='feature-box'>
                 <i className='feature-box__icon icon-basic-map'></i>
-                <h3 className='heading-tertiary u-margin-bottom-small'>
-                  Find your way
-                </h3>
+                <h3 className='heading-tertiary u-margin-bottom-small'>Find your way</h3>
                 <p className='feature-box__text'>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Aperiam, ipsum sapiente aspernatur.
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, ipsum
+                  sapiente aspernatur.
                 </p>
               </div>
             </div>
@@ -102,8 +96,8 @@ export const Main = () => {
                   Live a healthier life
                 </h3>
                 <p className='feature-box__text'>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Aperiam, ipsum sapiente aspernatur.
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, ipsum
+                  sapiente aspernatur.
                 </p>
               </div>
             </div>
@@ -115,12 +109,52 @@ export const Main = () => {
             <div className='row'>
               <div className='col-1-of-3'>
                 <div className='card'>
-                  <div className='card__side card__side--front'>FRONT</div>
-                  <div className='card__side card__side--back'>BACK</div>
+                  <div className='card__side card__side--front'>
+                    <div className='card__picture card__picture--1'>&nbsp;</div>
+                    <h4 className='card__heading'>
+                      <span className='card__heading-span card__heading-span--1'>
+                        The Sea Explorer
+                      </span>
+                    </h4>
+                    <div className='card__details'>Details</div>
+                  </div>
+                  <div className='card__side card__side--back card__side--back-1'>
+                    BACK
+                  </div>
                 </div>
               </div>
-              <div className='col-1-of-3 card'>333</div>
-              <div className='col-1-of-3 card'>ererer</div>
+              <div className='col-1-of-3'>
+                <div className='card'>
+                  <div className='card__side card__side--front'>
+                    <div className='card__picture card__picture--2'>&nbsp;</div>
+                    <h4 className='card__heading'>
+                      <span className='card__heading-span card__heading-span--2'>
+                        The Sea Explorer
+                      </span>
+                    </h4>
+                    <div className='card__details'>Details</div>
+                  </div>
+                  <div className='card__side card__side--back card__side--back-2'>
+                    BACK
+                  </div>
+                </div>
+              </div>
+              <div className='col-1-of-3'>
+                <div className='card'>
+                  <div className='card__side card__side--front'>
+                    <div className='card__picture card__picture--3'>&nbsp;</div>
+                    <h4 className='card__heading'>
+                      <span className='card__heading-span card__heading-span--3'>
+                        The Sea Explorer
+                      </span>
+                    </h4>
+                    <div className='card__details'>Details</div>
+                  </div>
+                  <div className='card__side card__side--back card__side--back-3'>
+                    BACK
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
